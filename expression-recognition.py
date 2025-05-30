@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import random
 
-dataset_base_path = r"C:\Users\etash\.cache\kagglehub\datasets\astraszab\facial-expression-dataset-image-folders-fer2013\versions\1\data"
+dataset_base_path = os.path.join(os.getcwd(), 'data')
 IMG_HEIGHT = 48
 IMG_WIDTH = 48
 
